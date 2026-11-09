@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZECO | Event Management for Business, Learning and Networking</title>
+<meta name="description" content="ZECO helps businesses, organizations, and communities connect, learn, and collaborate through thoughtfully planned events.">
+<link rel="icon" type="image/png" href="assets/zeco-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="top" style="container-type:inline-size;width:100%;background:#000;color:#fff;font-family:Manrope,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.65;overflow-x:clip" data-ref="rootRef">
+
+<div style="position:sticky;top:0;z-index:50;height:0">
+<header style="position:absolute;top:0;left:0;right:0;background:rgba(0,0,0,0);backdrop-filter:blur(0px);-webkit-backdrop-filter:blur(0px);border-bottom:1px solid rgba(255,255,255,0);transition:background .35s ease,border-color .35s ease,backdrop-filter .35s ease,-webkit-backdrop-filter .35s ease" data-zb="0">
+  <z-if data-if="isDesktop">
+    <div style="max-width:1320px;margin:0 auto;height:72px;padding:0 clamp(20px,4cqw,56px);display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:24px">
+      <a href="#top" aria-label="ZECO home" style="justify-self:start;display:flex;text-decoration:none" data-on="click:goTop"><img src="assets/zeco-logo-white.png" alt="ZECO" style="display:block;height:30px;width:auto"></a>
+      <nav aria-label="Main" style="display:flex;align-items:center;gap:6px" data-ref="navRef">
+        <a href="founder.html" style="display:flex;align-items:center;height:72px;padding:0 16px;color:#fff;text-decoration-line:underline;text-decoration-color:transparent;text-decoration-thickness:2px;text-underline-offset:9px;transition:text-decoration-color .2s;font-size:15px;font-weight:500" class="zh1">About the founder</a>
+        <div style="position:relative" data-on="mouseenter:openServices mouseleave:closeMenus focusout:blurMenu">
+          <button type="button" aria-expanded="false" aria-haspopup="true" style="display:flex;align-items:center;gap:8px;height:72px;padding:0 16px;background:none;border:0;font:inherit;font-size:15px;font-weight:500;color:#fff;cursor:pointer;text-decoration-line:underline;text-decoration-thickness:2px;text-underline-offset:9px;transition:text-decoration-color .2s;text-decoration-color:transparent" class="zh2" data-zb="1" data-on="click:toggleServices">What We Do<span aria-hidden="true" style="width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s" data-zb="2"></span></button>
+          <z-if data-if="servicesOpen" hidden="">
+            <div style="position:absolute;top:calc(100% - 10px);left:50%;transform:translateX(-50%);width:540px;background:rgba(58,58,58,.98);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:8px;display:grid;grid-template-columns:1fr 1fr;gap:2px;box-shadow:0 24px 60px rgba(0,0,0,.55)">
+              
+                <a href="#services" style="display:flex;gap:12px;padding:13px 14px;border-radius:6px;color:#fff;text-decoration:none;font-size:15px;font-weight:500;line-height:1.35" class="zh3 zh4" data-on="click:closeAll"><span style="color:#AEAEAE;font-size:12px;font-weight:700;padding-top:2px"><!--zb:services.0.num-->01<!--/zb--></span><!--zb:services.0.name-->Corporate &amp; Business Events<!--/zb--></a>
+              
+                <a href="#services" style="display:flex;gap:12px;padding:13px 14px;border-radius:6px;color:#fff;text-decoration:none;font-size:15px;font-weight:500;line-height:1.35" class="zh5 zh6" data-on="click:closeAll"><span style="color:#AEAEAE;font-size:12px;font-weight:700;padding-top:2px"><!--zb:services.1.num-->02<!--/zb--></span><!--zb:services.1.name-->Conferences &amp; Learning Events<!--/zb--></a>
+              
+                <a href="#services" style="display:flex;gap:12px;padding:13px 14px;border-radius:6px;color:#fff;text-decoration:none;font-size:15px;font-weight:500;line-height:1.35" class="zh7 zh8" data-on="click:closeAll"><span style="color:#AEAEAE;font-size:12px;font-weight:700;padding-top:2px"><!--zb:services.2.num-->03<!--/zb--></span><!--zb:services.2.name-->Networking &amp; Community Events<!--/zb--></a>
+              
+                <a href="#services" style="display:flex;gap:12px;padding:13px 14px;border-radius:6px;color:#fff;text-decoration:none;font-size:15px;font-weight:500;line-height:1.35" class="zh9 zh10" data-on="click:closeAll"><span style="color:#AEAEAE;font-size:12px;font-weight:700;padding-top:2px"><!--zb:services.3.num-->04<!--/zb--></span><!--zb:services.3.name-->Virtual &amp; Hybrid Events<!--/zb--></a>
+              
+            </div>
+          </z-if>
+        </div>
+        <a href="upcoming-events.html" style="display:flex;align-items:center;height:72px;padding:0 16px;color:#fff;text-decoration-line:underline;text-decoration-color:transparent;text-decoration-thickness:2px;text-underline-offset:9px;transition:text-decoration-color .2s;font-size:15px;font-weight:500" class="zh11">Upcoming Events</a>
+      </nav>
+      <a href="contact.html" style="justify-self:end;display:inline-flex;align-items:center;height:42px;padding:0 20px;background:#DA272F;color:#fff;font-weight:600;font-size:15px;text-decoration:none;border-radius:8px;transition:background .2s" class="zh12">Let’s Plan Your Event</a>
+    </div>
+  </z-if>
+  <z-if data-if="isMobile" hidden="">
+    <div style="height:64px;padding:0 clamp(20px,4cqw,56px);display:flex;align-items:center;justify-content:space-between">
+      <a href="#top" aria-label="ZECO home" style="display:flex;text-decoration:none" data-on="click:goTop"><img src="assets/zeco-logo-white.png" alt="ZECO" style="display:block;height:28px;width:auto"></a>
+      <button type="button" aria-expanded="false" aria-controls="m-nav" aria-label="Open menu" style="width:46px;height:46px;margin-right:-4px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.28);border-radius:8px;cursor:pointer;position:relative" data-zb="3" data-on="click:toggleMenu">
+        <z-if data-if="menuClosed">
+          <span style="width:20px;height:2px;background:#fff"></span>
+          <span style="width:20px;height:2px;background:#fff"></span>
+          <span style="width:20px;height:2px;background:#fff"></span>
+        </z-if>
+        <z-if data-if="menuOpen" hidden="">
+          <span style="position:absolute;width:20px;height:2px;background:#fff;transform:rotate(45deg)"></span>
+          <span style="position:absolute;width:20px;height:2px;background:#fff;transform:rotate(-45deg)"></span>
+        </z-if>
+      </button>
+    </div>
+    <z-if data-if="menuOpen" hidden="">
+      <nav id="m-nav" aria-label="Main" style="position:absolute;top:64px;left:0;right:0;height:calc(100vh - 64px);height:calc(100svh - 64px);overflow-y:auto;border-top:1px solid rgba(255,255,255,.08);padding:8px clamp(20px,4cqw,56px) 32px;background:#000">
+        <a href="founder.html" style="display:flex;align-items:center;min-height:58px;border-bottom:1px solid rgba(255,255,255,.12);color:#fff;text-decoration:none;font-size:19px;font-weight:600">About the founder</a>
+        <button type="button" aria-expanded="false" style="width:100%;display:flex;justify-content:space-between;align-items:center;min-height:58px;background:none;border:0;border-bottom:1px solid rgba(255,255,255,.12);font:inherit;font-size:19px;font-weight:600;color:#fff;cursor:pointer;padding:0" data-zb="4" data-on="click:toggleMServices">What We Do<span style="font-size:22px;font-weight:400;color:#DA272F"><!--zb:mServicesSign-->+<!--/zb--></span></button>
+        <z-if data-if="mServices" hidden="">
+          <div style="display:flex;flex-direction:column;padding:6px 0 10px 14px;border-bottom:1px solid rgba(255,255,255,.12)">
+            
+              <a href="#services" style="display:flex;align-items:center;min-height:48px;color:#AEAEAE;text-decoration:none;font-size:16px" class="zh13" data-on="click:closeAll"><!--zb:services.0.name-->Corporate &amp; Business Events<!--/zb--></a>
+            
+              <a href="#services" style="display:flex;align-items:center;min-height:48px;color:#AEAEAE;text-decoration:none;font-size:16px" class="zh14" data-on="click:closeAll"><!--zb:services.1.name-->Conferences &amp; Learning Events<!--/zb--></a>
+            
+              <a href="#services" style="display:flex;align-items:center;min-height:48px;color:#AEAEAE;text-decoration:none;font-size:16px" class="zh15" data-on="click:closeAll"><!--zb:services.2.name-->Networking &amp; Community Events<!--/zb--></a>
+            
+              <a href="#services" style="display:flex;align-items:center;min-height:48px;color:#AEAEAE;text-decoration:none;font-size:16px" class="zh16" data-on="click:closeAll"><!--zb:services.3.name-->Virtual &amp; Hybrid Events<!--/zb--></a>
+            
+          </div>
+        </z-if>
+        <a href="upcoming-events.html" style="display:flex;align-items:center;min-height:58px;border-bottom:1px solid rgba(255,255,255,.12);color:#fff;text-decoration:none;font-size:19px;font-weight:600" data-on="click:closeAll">Upcoming Events</a>
+        <a href="contact.html" style="margin-top:24px;display:flex;align-items:center;justify-content:center;min-height:52px;background:#DA272F;color:#fff;font-weight:600;font-size:16px;text-decoration:none;border-radius:8px" data-on="click:closeAll">Let’s Plan Your Event</a>
+      </nav>
+    </z-if>
+  </z-if>
+</header>
+</div>
+
+<main>
+<section aria-labelledby="hero-h" style="display:flex;min-height:max(640px,100vh);min-height:max(640px,100svh);padding:0 clamp(8px,0.9cqw,14px) clamp(8px,0.9cqw,14px)">
+  <div style="position:relative;isolation:isolate;overflow:hidden;flex:1;display:flex;flex-direction:column;justify-content:flex-end;border-radius:0 0 clamp(12px,1.2cqw,18px) clamp(12px,1.2cqw,18px);background:radial-gradient(ellipse 70% 90% at 80% 30%,#3A3A3A 0%,#141414 55%,#000 100%);box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)">
+    <video src="assets/hero-video.mp4" poster="assets/hero-poster.jpg" autoplay="" muted="" loop="" playsinline="" preload="auto" aria-hidden="true" style="position:absolute;inset:0;z-index:-3;width:100%;height:100%;object-fit:cover;display:block" data-ref="videoRef"></video>
+    <div aria-hidden="true" style="position:absolute;inset:0;z-index:-2;overflow:hidden;pointer-events:none">
+      <div style="position:absolute;left:0;right:0;top:0;height:200px;background:linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,0))"></div>
+      <z-if data-if="isDesktop">
+        <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.88) 0%,rgba(0,0,0,.72) 30%,rgba(0,0,0,.4) 55%,rgba(0,0,0,.12) 75%,rgba(0,0,0,0) 90%)"></div>
+        <div style="position:absolute;inset:0;opacity:0.8" data-zb="5">
+          <div style="position:absolute;left:-16%;top:-30%;width:56%;height:90%;background:radial-gradient(closest-side,rgba(218,39,47,.24),rgba(58,58,58,.3) 55%,rgba(0,0,0,0));filter:blur(80px)"></div>
+          <div style="position:absolute;left:-10%;bottom:-30%;width:50%;height:70%;background:radial-gradient(closest-side,rgba(218,39,47,.16),rgba(0,0,0,0));filter:blur(60px)"></div>
+        </div>
+        <div style="position:absolute;left:0;right:0;bottom:0;height:160px;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.85))"></div>
+      </z-if>
+      <z-if data-if="isMobile" hidden="">
+        <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.4) 0%,rgba(0,0,0,.6) 40%,rgba(0,0,0,.88) 75%,#000 100%)"></div>
+        <div style="position:absolute;inset:0;opacity:0.8" data-zb="6">
+          <div style="position:absolute;left:-30%;bottom:-20%;width:100%;height:60%;background:radial-gradient(closest-side,rgba(218,39,47,.22),rgba(58,58,58,.3) 55%,rgba(0,0,0,0));filter:blur(50px)"></div>
+        </div>
+      </z-if>
+    </div>
+    <div style="width:100%;margin:0;padding:clamp(160px,16cqw,240px) calc(max(0px, (100cqw - 1320px) / 2) + clamp(20px,4cqw,56px) - clamp(8px,0.9cqw,14px)) clamp(32px,4.4cqw,64px);display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:24px 40px">
+      <div style="flex:0 1 640px;min-width:min(100%,320px);display:flex;flex-direction:column;gap:clamp(18px,1.8cqw,24px)">
+        <h1 id="hero-h" style="margin:0;font-size:clamp(44px,4.6cqw,66px);line-height:1.04;letter-spacing:-.035em;font-weight:500;color:#fff;text-wrap:balance">Event Management for Business, Learning and Networking.</h1>
+        <p style="margin:0;max-width:56ch;font-size:clamp(17px,1.4cqw,20px);line-height:1.6;color:#AEAEAE;text-wrap:pretty">ZECO helps businesses, organizations, and communities connect, learn, and collaborate through thoughtfully planned events.</p>
+      </div>
+      <div style="flex:none;display:flex;flex-wrap:wrap;gap:12px">
+        <a href="contact.html" style="display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;background:#DA272F;color:#fff;font-weight:600;font-size:16px;text-decoration:none;border-radius:10px;transition:background .2s" class="zh17">Let’s Plan Your Event<span aria-hidden="true" style="font-size:16px;line-height:1">›</span></a>
+        <a href="what-we-do.html" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;background:rgba(0,0,0,.25);color:#fff;font-weight:600;font-size:16px;text-decoration:none;border-radius:10px;border:1px solid rgba(255,255,255,.35);transition:border-color .2s" class="zh18">What We Do</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="planning" aria-labelledby="planning-h" style="scroll-margin-top:72px;position:relative;isolation:isolate;padding:clamp(48px,5cqw,80px) calc(max(0px, (100cqw - 1320px) / 2) + clamp(20px,4cqw,56px));border-top:1px solid rgba(255,255,255,.08)">
+  <div aria-hidden="true" style="position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:0.8" data-zb="7"><div style="position:absolute;will-change:transform;animation:zdrift 30s ease-in-out 0s infinite alternate;right:-12%;top:5%;width:50%;height:90%;background:radial-gradient(closest-side,rgba(218,39,47,0.18),rgba(0,0,0,0));filter:blur(90px)"></div></div>
+  <div style="margin:0 auto;display:flex;flex-direction:column;gap:clamp(28px,3cqw,44px)">
+    <div style="display:flex;flex-wrap:wrap;gap:20px clamp(40px,4.4cqw,64px);align-items:flex-start">
+      <h2 id="planning-h" style="flex:0 1 auto;min-width:0;max-width:100%;margin:0;font-size:clamp(36px,3.4cqw,48px);line-height:1.08;letter-spacing:-.035em;font-weight:500;color:#fff;text-wrap:balance">Event planning aligned with<br>your business objectives</h2>
+      <p style="flex:1 1 340px;min-width:0;margin:0;max-width:68ch;font-size:18px;line-height:1.65;color:#AEAEAE;text-wrap:pretty">Translate your objectives into a clear event plan. ZECO coordinates formats, agendas, logistics, and delivery to support your audience, budget, and priorities.</p>
+    </div>
+    <ul style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:24px clamp(24px,3cqw,48px)">
+      <li style="display:flex;align-items:flex-start;gap:14px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12)">
+        <span aria-hidden="true" style="flex:none;width:6px;height:6px;margin-top:10px;background:#DA272F"></span>
+        <div style="display:flex;flex-direction:column;gap:6px;min-width:0">
+          <h3 style="margin:0;font-size:clamp(19px,1.6cqw,22px);line-height:1.25;letter-spacing:-.015em;font-weight:700;color:#fff">Align teams</h3>
+          <p style="margin:0;font-size:16px;line-height:1.6;color:#AEAEAE;text-wrap:pretty">Support planning, collaboration, and organizational priorities.</p>
+        </div>
+      </li>
+      <li style="display:flex;align-items:flex-start;gap:14px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12)">
+        <span aria-hidden="true" style="flex:none;width:6px;height:6px;margin-top:10px;background:#DA272F"></span>
+        <div style="display:flex;flex-direction:column;gap:6px;min-width:0">
+          <h3 style="margin:0;font-size:clamp(19px,1.6cqw,22px);line-height:1.25;letter-spacing:-.015em;font-weight:700;color:#fff">Engage stakeholders</h3>
+          <p style="margin:0;font-size:16px;line-height:1.6;color:#AEAEAE;text-wrap:pretty">Strengthen relationships with clients, partners, and industry peers.</p>
+        </div>
+      </li>
+      <li style="display:flex;align-items:flex-start;gap:14px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12)">
+        <span aria-hidden="true" style="flex:none;width:6px;height:6px;margin-top:10px;background:#DA272F"></span>
+        <div style="display:flex;flex-direction:column;gap:6px;min-width:0">
+          <h3 style="margin:0;font-size:clamp(19px,1.6cqw,22px);line-height:1.25;letter-spacing:-.015em;font-weight:700;color:#fff">Share expertise</h3>
+          <p style="margin:0;font-size:16px;line-height:1.6;color:#AEAEAE;text-wrap:pretty">Facilitate practical learning and informed discussion.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="services" aria-labelledby="services-h" style="scroll-margin-top:72px;position:relative;isolation:isolate;padding:clamp(48px,5cqw,80px) calc(max(0px, (100cqw - 1320px) / 2) + clamp(20px,4cqw,56px))">
+  <div aria-hidden="true" style="position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:0.8" data-zb="8"><div style="position:absolute;will-change:transform;animation:zdrift 34s ease-in-out -8s infinite alternate;left:-12%;top:-30%;width:45%;height:70%;background:radial-gradient(closest-side,rgba(218,39,47,0.14),rgba(0,0,0,0));filter:blur(90px)"></div><div style="position:absolute;will-change:transform;animation:zdrift 28s ease-in-out -14s infinite alternate;right:-12%;bottom:-30%;width:40%;height:60%;background:radial-gradient(closest-side,rgba(218,39,47,0.12),rgba(0,0,0,0));filter:blur(90px)"></div></div>
+  <div style="margin:0 auto;display:flex;flex-direction:column;gap:clamp(28px,3cqw,44px)">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:20px clamp(40px,6cqw,96px);align-items:start">
+      <h2 id="services-h" style="margin:0;font-size:clamp(36px,3.4cqw,48px);line-height:1.08;letter-spacing:-.035em;font-weight:500;color:#fff;text-wrap:balance">What We Do</h2>
+      <p style="margin:0;max-width:68ch;font-size:18px;line-height:1.65;color:#AEAEAE;text-wrap:pretty">From internal meetings to industry conferences, ZECO coordinates the agenda, logistics, and participant experience so your event delivers on its purpose.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,264px),1fr));gap:16px">
+      <article style="display:grid;grid-template-rows:subgrid;grid-row:span 5;row-gap:0;background:rgba(58,58,58,.42);border:1px solid rgba(255,255,255,.08);border-radius:8px;overflow:hidden;transition:background .25s,border-color .25s" class="zh19">
+        <div style="aspect-ratio:4/3;position:relative;overflow:hidden;background:#141414;color:#AEAEAE"><div style="position:absolute;inset:0;transition:transform .9s cubic-bezier(.2,.7,.2,1)" class="zh20"><image-slot id="svc-corporate" shape="rect" placeholder="Strategy meeting" src="images/svc-corporate.webp"></image-slot></div></div>
+        <div style="grid-row:span 4;display:grid;grid-template-rows:subgrid;row-gap:16px;padding:26px 24px 22px">
+          <h3 style="margin:0;font-size:22px;line-height:1.2;letter-spacing:-.015em;font-weight:700;color:#fff;text-wrap:balance">Corporate &amp; Business Events</h3>
+          <p style="margin:0;font-size:16px;line-height:1.6;color:#AEAEAE;text-wrap:pretty">Meetings, offsites, onboarding, and launches built around clear business priorities.</p>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-content:flex-start;gap:6px">
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Corporate meetings</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Strategic planning sessions</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Onboarding sessions</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Product launches</li>
+          </ul>
+          <a href="what-we-do.html#corporate" style="align-self:end;justify-self:start;padding-top:8px;display:inline-flex;align-items:center;gap:8px;min-height:44px;color:#fff;font-weight:600;font-size:15px;line-height:1.35;text-decoration:none;text-underline-offset:6px;text-decoration-thickness:1.5px" class="zh21">Explore Corporate Events<span aria-hidden="true" style="color:#DA272F">›</span></a>
+        </div>
+      </article>
+      <article style="display:grid;grid-template-rows:subgrid;grid-row:span 5;row-gap:0;background:rgba(58,58,58,.42);border:1px solid rgba(255,255,255,.08);border-radius:8px;overflow:hidden;transition:background .25s,border-color .25s" class="zh22">
+        <div style="aspect-ratio:4/3;position:relative;overflow:hidden;background:#141414;color:#AEAEAE"><div style="position:absolute;inset:0;transition:transform .9s cubic-bezier(.2,.7,.2,1)" class="zh23"><image-slot id="svc-conferences" shape="rect" placeholder="Panel discussion" src="images/svc-conferences.webp"></image-slot></div></div>
+        <div style="grid-row:span 4;display:grid;grid-template-rows:subgrid;row-gap:16px;padding:26px 24px 22px">
+          <h3 style="margin:0;font-size:22px;line-height:1.2;letter-spacing:-.015em;font-weight:700;color:#fff;text-wrap:balance">Conferences &amp; Learning Events</h3>
+          <p style="margin:0;font-size:16px;line-height:1.6;color:#AEAEAE;text-wrap:pretty">Summits, seminars, and workshops structured around defined learning objectives.</p>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-content:flex-start;gap:6px">
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Conferences</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Summits</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Seminars</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Workshops</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Training sessions</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Panel discussions</li>
+          </ul>
+          <a href="what-we-do.html#conferences" style="align-self:end;justify-self:start;padding-top:8px;display:inline-flex;align-items:center;gap:8px;min-height:44px;color:#fff;font-weight:600;font-size:15px;line-height:1.35;text-decoration:none;text-underline-offset:6px;text-decoration-thickness:1.5px" class="zh24">Explore Learning Events<span aria-hidden="true" style="color:#DA272F">›</span></a>
+        </div>
+      </article>
+      <article style="display:grid;grid-template-rows:subgrid;grid-row:span 5;row-gap:0;background:rgba(58,58,58,.42);border:1px solid rgba(255,255,255,.08);border-radius:8px;overflow:hidden;transition:background .25s,border-color .25s" class="zh25">
+        <div style="aspect-ratio:4/3;position:relative;overflow:hidden;background:#141414;color:#AEAEAE"><div style="position:absolute;inset:0;transition:transform .9s cubic-bezier(.2,.7,.2,1)" class="zh26"><image-slot id="svc-networking" shape="rect" placeholder="Professional mixer" src="images/svc-networking.webp"></image-slot></div></div>
+        <div style="grid-row:span 4;display:grid;grid-template-rows:subgrid;row-gap:16px;padding:26px 24px 22px">
+          <h3 style="margin:0;font-size:22px;line-height:1.2;letter-spacing:-.015em;font-weight:700;color:#fff;text-wrap:balance">Networking &amp; Community Events</h3>
+          <p style="margin:0;font-size:16px;line-height:1.6;color:#AEAEAE;text-wrap:pretty">Mixers, roundtables, and ZECO Socials designed for relevant conversations.</p>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-content:flex-start;gap:6px">
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Business mixers</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Industry meetups</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Professional networking</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Executive and founder roundtables</li>
+          </ul>
+          <a href="what-we-do.html#networking" style="align-self:end;justify-self:start;padding-top:8px;display:inline-flex;align-items:center;gap:8px;min-height:44px;color:#fff;font-weight:600;font-size:15px;line-height:1.35;text-decoration:none;text-underline-offset:6px;text-decoration-thickness:1.5px" class="zh27">Explore Networking Events<span aria-hidden="true" style="color:#DA272F">›</span></a>
+        </div>
+      </article>
+      <article style="display:grid;grid-template-rows:subgrid;grid-row:span 5;row-gap:0;background:rgba(58,58,58,.42);border:1px solid rgba(255,255,255,.08);border-radius:8px;overflow:hidden;transition:background .25s,border-color .25s" class="zh28">
+        <div style="aspect-ratio:4/3;position:relative;overflow:hidden;background:#141414;color:#AEAEAE"><div style="position:absolute;inset:0;transition:transform .9s cubic-bezier(.2,.7,.2,1)" class="zh29"><image-slot id="svc-virtual" shape="rect" placeholder="Hybrid session" src="images/svc-virtual.webp"></image-slot></div></div>
+        <div style="grid-row:span 4;display:grid;grid-template-rows:subgrid;row-gap:16px;padding:26px 24px 22px">
+          <h3 style="margin:0;font-size:22px;line-height:1.2;letter-spacing:-.015em;font-weight:700;color:#fff;text-wrap:balance">Virtual &amp; Hybrid Events</h3>
+          <p style="margin:0;font-size:16px;line-height:1.6;color:#AEAEAE;text-wrap:pretty">Coordinated digital delivery that connects audiences across locations.</p>
+          <ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-content:flex-start;gap:6px">
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Virtual meetings and conferences</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Webinars</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Online workshops</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Training sessions</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Virtual networking</li>
+            <li style="font-size:13px;line-height:1.3;padding:6px 9px;border:1px solid rgba(255,255,255,.14);border-radius:4px;color:#AEAEAE">Hybrid events</li>
+          </ul>
+          <a href="what-we-do.html#virtual" style="align-self:end;justify-self:start;padding-top:8px;display:inline-flex;align-items:center;gap:8px;min-height:44px;color:#fff;font-weight:600;font-size:15px;line-height:1.35;text-decoration:none;text-underline-offset:6px;text-decoration-thickness:1.5px" class="zh30">Explore Virtual &amp; Hybrid Events<span aria-hidden="true" style="color:#DA272F">›</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="about" aria-labelledby="about-h" style="scroll-margin-top:72px;position:relative;isolation:isolate;padding:clamp(48px,5cqw,80px) calc(max(0px, (100cqw - 1320px) / 2) + clamp(20px,4cqw,56px))">
+  <div aria-hidden="true" style="position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:0.8" data-zb="9"><div style="position:absolute;will-change:transform;animation:zdrift 32s ease-in-out -6s infinite alternate;right:-12%;bottom:-30%;width:50%;height:90%;background:radial-gradient(closest-side,rgba(218,39,47,0.18),rgba(0,0,0,0));filter:blur(90px)"></div></div>
+  <div style="margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:clamp(40px,6cqw,96px);align-items:center">
+    <z-if data-if="isDesktop">
+      <div style="position:relative;height:clamp(480px,42cqw,600px)">
+        <div style="position:absolute;left:0;top:0;width:76%;height:78%;border-radius:8px;overflow:hidden;border:1px solid rgba(255,255,255,.1);background:#141414;color:#AEAEAE">
+          <div style="position:absolute;inset:0;transition:transform .9s cubic-bezier(.2,.7,.2,1)" class="zh31"><image-slot id="about-workshop" shape="rect" placeholder="Workshop collaboration" src="images/about-workshop.webp" data-s="1.042" data-x="0.3223" data-y="-2.083"></image-slot></div>
+        </div>
+        <div style="position:absolute;right:0;bottom:0;width:48%;height:44%;border-radius:8px;overflow:hidden;border:1px solid rgba(255,255,255,.1);background:#141414;color:#AEAEAE;box-shadow:0 0 0 8px #000">
+          <div style="position:absolute;inset:0;transition:transform .9s cubic-bezier(.2,.7,.2,1)" class="zh32"><image-slot id="about-discussion" shape="rect" placeholder="Business discussion" src="images/about-discussion.webp" data-y="-0.9963"></image-slot></div>
+        </div>
+      </div>
+    </z-if>
+    <z-if data-if="isMobile" hidden="">
+      <div style="position:relative;aspect-ratio:4/3;border-radius:8px;overflow:hidden;border:1px solid rgba(255,255,255,.1);background:#141414;color:#AEAEAE">
+        <image-slot id="about-workshop" shape="rect" placeholder="Workshop collaboration" src="images/about-workshop.webp" data-s="1.042" data-x="0.3223" data-y="-2.083"></image-slot>
+      </div>
+    </z-if>
+    <div style="display:flex;flex-direction:column;gap:clamp(28px,3cqw,40px)">
+      <div style="display:flex;flex-direction:column;gap:18px">
+        <span style="display:flex;align-items:center;gap:10px;font-size:14px;font-weight:600;color:#AEAEAE"><span style="width:6px;height:6px;background:#DA272F"></span>About ZECO</span>
+        <h2 id="about-h" style="margin:0;font-size:clamp(36px,3.4cqw,48px);line-height:1.08;letter-spacing:-.035em;font-weight:500;color:#fff;text-wrap:balance">Get to know ZECO</h2>
+      </div>
+      <div style="display:flex;flex-direction:column">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,130px),1fr));gap:10px 28px;padding:24px 0;border-top:1px solid rgba(255,255,255,.14)">
+          <h3 style="margin:0;font-size:15px;font-weight:700;color:#AEAEAE;padding-top:4px">Our mission</h3>
+          <p style="grid-column:span 3;min-width:min(100%,280px);margin:0;font-size:clamp(18px,1.5cqw,21px);line-height:1.5;font-weight:500;color:#fff;text-wrap:pretty">To plan and deliver purposeful events that connect people, support learning, and strengthen professional relationships.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,130px),1fr));gap:10px 28px;padding:24px 0;border-top:1px solid rgba(255,255,255,.14)">
+          <h3 style="margin:0;font-size:15px;font-weight:700;color:#AEAEAE;padding-top:4px">Our vision</h3>
+          <p style="grid-column:span 3;min-width:min(100%,280px);margin:0;font-size:clamp(18px,1.5cqw,21px);line-height:1.5;font-weight:500;color:#fff;text-wrap:pretty">To make well-planned events a catalyst for stronger communities, shared knowledge, and business opportunities.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,130px),1fr));gap:10px 28px;padding:24px 0;border-top:1px solid rgba(255,255,255,.14);border-bottom:1px solid rgba(255,255,255,.14)">
+          <h3 style="margin:0;font-size:15px;font-weight:700;color:#AEAEAE;padding-top:4px">Meet the founder</h3>
+          <div style="grid-column:span 3;min-width:min(100%,280px);display:flex;flex-direction:column;gap:18px;align-items:flex-start">
+            <p style="margin:0;font-size:clamp(18px,1.5cqw,21px);line-height:1.5;font-weight:500;color:#fff;text-wrap:pretty">Led by founder Aiman El-Ramly, ZECO brings decades of enterprise experience to every programme.</p>
+            <a href="founder.html" style="display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;background:transparent;color:#fff;border:1px solid rgba(174,174,174,.6);font-weight:600;font-size:15px;text-decoration:none;border-radius:6px;transition:all .2s" class="zh33">Meet the Founder<span aria-hidden="true">›</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="events" aria-labelledby="events-h" style="scroll-margin-top:72px;position:relative;isolation:isolate;padding:clamp(48px,5cqw,80px) calc(max(0px, (100cqw - 1320px) / 2) + clamp(20px,4cqw,56px))">
+  <div aria-hidden="true" style="position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:0.8" data-zb="10"><div style="position:absolute;will-change:transform;animation:zdrift 26s ease-in-out -10s infinite alternate;left:-12%;top:-30%;width:50%;height:90%;background:radial-gradient(closest-side,rgba(218,39,47,0.2),rgba(0,0,0,0));filter:blur(90px)"></div></div>
+  <div style="margin:0 auto;max-width:1000px;display:flex;flex-direction:column;gap:clamp(32px,3.2cqw,48px)">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px 40px">
+      <div style="flex:1 1 440px;min-width:0;display:flex;flex-direction:column;gap:clamp(16px,1.6cqw,20px)">
+      <h2 id="events-h" style="margin:0;font-size:clamp(36px,3.4cqw,48px);line-height:1.08;letter-spacing:-.035em;font-weight:500;color:#fff;text-wrap:balance">Upcoming Events</h2>
+      <p style="margin:0;max-width:60ch;font-size:18px;line-height:1.65;color:#AEAEAE;text-wrap:pretty">Discover opportunities to meet people, exchange ideas, and explore the changes shaping business and work.</p>
+      </div>
+      <div style="flex:0 0 auto;display:flex;flex-wrap:wrap;gap:12px">
+        <a href="#events" style="display:inline-flex;align-items:center;min-height:48px;padding:0 22px;background:#DA272F;color:#fff;font-weight:600;font-size:15px;text-decoration:none;border-radius:6px;transition:background .2s" class="zh34">View Upcoming Events</a>
+        <a href="https://www.linkedin.com/company/zeco-events/" target="_blank" rel="noopener noreferrer" aria-label="ZECO on LinkedIn" style="display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:transparent;color:#fff;border:1px solid rgba(174,174,174,.6);border-radius:6px;text-decoration:none;transition:all .2s" class="zh35"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h3.96V21H3V9.75zm6.46 0h3.8v1.54h.05c.53-1 1.82-2.05 3.75-2.05 4 0 4.74 2.64 4.74 6.07V21h-3.96v-5.04c0-1.2-.02-2.75-1.67-2.75-1.68 0-1.94 1.31-1.94 2.66V21H9.46V9.75z"></path></svg></a>
+        <a href="https://www.instagram.com/zeco.events/" target="_blank" rel="noopener noreferrer" aria-label="ZECO on Instagram" style="display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:transparent;color:#fff;border:1px solid rgba(174,174,174,.6);border-radius:6px;text-decoration:none;transition:all .2s" class="zh36"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"></circle></svg></a>
+      </div>
+    </div>
+    <div role="region" aria-roledescription="carousel" aria-label="Upcoming events" style="display:flex;flex-direction:column;gap:16px;min-width:0" data-on="mouseenter:evPause mouseleave:evResume focusin:evPause focusout:evBlur">
+      <div aria-live="off" style="display:grid;overflow:hidden;background:rgba(58,58,58,.5);border:1px solid rgba(255,255,255,.08);border-radius:8px" data-zb="11">
+        <article aria-roledescription="slide" aria-label="1 of 2" aria-hidden="false" style="grid-area:1/1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:clamp(20px,2cqw,28px);align-items:stretch;padding:clamp(20px,1.8cqw,26px);opacity:1;transform:translateX(0);visibility:visible;transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1),visibility .6s" data-zb="12">
+          <div style="display:flex;flex-direction:column;gap:14px;min-width:0">
+          <h3 style="margin:0;font-size:clamp(24px,2.2cqw,30px);line-height:1.15;letter-spacing:-.02em;font-weight:700;color:#fff">Transforming Cement</h3>
+          <dl style="margin:0;display:grid;grid-template-columns:92px minmax(0,1fr)">
+            <dt style="padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:14px;font-weight:600;color:#AEAEAE">Date</dt><dd style="margin:0;padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:16px;font-weight:600;color:#fff">November 25, 2026</dd>
+            <dt style="padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:14px;font-weight:600;color:#AEAEAE">Location</dt><dd style="margin:0;padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:16px;font-weight:600;color:#fff">Sky Executive Resort, New Cairo, Egypt</dd>
+            <dt style="padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:14px;font-weight:600;color:#AEAEAE;border-bottom:1px solid rgba(255,255,255,.12)">Details</dt><dd style="margin:0;padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:16px;color:#AEAEAE;border-bottom:1px solid rgba(255,255,255,.12)">An exclusive evening reception to explore innovation and the future of cement across North America and the Middle East.</dd>
+          </dl>
+          </div>
+          <div style="order:-1;position:relative;min-height:200px;aspect-ratio:auto;border-radius:6px;overflow:hidden;border:1px solid rgba(255,255,255,.1);background:#141414;color:#AEAEAE" data-zb="13"><image-slot id="event-cement" shape="rect" placeholder="Transforming Cement" src="images/event-cement.webp" data-x="0.001766"></image-slot></div>
+        </article>
+        <article aria-roledescription="slide" aria-label="2 of 2" aria-hidden="true" style="grid-area:1/1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:clamp(20px,2cqw,28px);align-items:stretch;padding:clamp(20px,1.8cqw,26px);opacity:0;transform:translateX(24px);visibility:hidden;transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1),visibility .6s" data-zb="14">
+          <div style="display:flex;flex-direction:column;gap:14px;min-width:0">
+          <h3 style="margin:0;font-size:clamp(24px,2.2cqw,30px);line-height:1.15;letter-spacing:-.02em;font-weight:700;color:#fff">Fourco Exhibition</h3>
+          <dl style="margin:0;display:grid;grid-template-columns:92px minmax(0,1fr)">
+            <dt style="padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:14px;font-weight:600;color:#AEAEAE">Date</dt><dd style="margin:0;padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:16px;font-weight:600;color:#fff">To be confirmed</dd>
+            <dt style="padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:14px;font-weight:600;color:#AEAEAE">Location</dt><dd style="margin:0;padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:16px;font-weight:600;color:#fff">To be confirmed</dd>
+            <dt style="padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:14px;font-weight:600;color:#AEAEAE;border-bottom:1px solid rgba(255,255,255,.12)">Details</dt><dd style="margin:0;padding:8px 0;border-top:1px solid rgba(255,255,255,.12);font-size:16px;color:#AEAEAE;border-bottom:1px solid rgba(255,255,255,.12)">Further details to be announced.</dd>
+          </dl>
+          </div>
+          <div style="order:-1;position:relative;min-height:200px;aspect-ratio:auto;border-radius:6px;overflow:hidden;border:1px solid rgba(255,255,255,.1);background:#141414;color:#AEAEAE" data-zb="15"><image-slot id="event-fourco" shape="rect" placeholder="Fourco Exhibition" src="images/event-fourco.webp" data-y="28.07"></image-slot></div>
+        </article>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:16px">
+        <div style="display:flex;align-items:center;gap:4px">
+          <button type="button" aria-label="Show Transforming Cement" aria-current="true" style="display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;background:transparent;border:0;cursor:pointer" data-zb="16" data-on="click:evGo0"><span style="display:block;width:28px;height:4px;background:#DA272F;border-radius:2px;transition:all .3s" data-zb="17"></span></button>
+          <button type="button" aria-label="Show Fourco Exhibition" aria-current="false" style="display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;background:transparent;border:0;cursor:pointer" data-zb="18" data-on="click:evGo1"><span style="display:block;width:14px;height:4px;background:rgba(174,174,174,.5);border-radius:2px;transition:all .3s" data-zb="19"></span></button>
+        </div>
+        <div style="display:flex;gap:10px">
+          <button type="button" aria-label="Previous event" style="width:52px;height:52px;display:flex;align-items:center;justify-content:center;background:transparent;border:1.5px solid #fff;border-radius:6px;color:#fff;font:inherit;font-size:20px;line-height:1;cursor:pointer;transition:all .15s" class="zh37" data-on="click:evPrev">‹</button>
+          <button type="button" aria-label="Next event" style="width:52px;height:52px;display:flex;align-items:center;justify-content:center;border:1.5px solid #DA272F;border-radius:6px;color:#fff;font:inherit;font-size:20px;line-height:1;cursor:pointer;transition:all .15s;background:#DA272F" class="zh38" data-on="click:evNext">›</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" aria-labelledby="cta-h" style="scroll-margin-top:72px;position:relative;isolation:isolate;overflow:hidden;padding:clamp(40px,4cqw,64px) calc(max(0px, (100cqw - 1320px) / 2) + clamp(20px,4cqw,56px));background:#000;border-top:1px solid rgba(255,255,255,.08)">
+  <div aria-hidden="true" style="position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none;opacity:0.8" data-zb="20"><div style="position:absolute;will-change:transform;animation:zdrift 24s ease-in-out 0s infinite alternate;left:-12%;top:-40%;width:55%;height:160%;background:radial-gradient(closest-side,rgba(218,39,47,.28),rgba(0,0,0,0));filter:blur(70px)"></div><div style="position:absolute;will-change:transform;animation:zdrift 30s ease-in-out -10s infinite alternate;right:-10%;bottom:-50%;width:45%;height:150%;background:radial-gradient(closest-side,rgba(218,39,47,.16),rgba(0,0,0,0));filter:blur(70px)"></div></div>
+  <div style="margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px clamp(40px,6cqw,96px)">
+    <div style="flex:1 1 440px;min-width:0;max-width:680px;display:flex;flex-direction:column;gap:14px">
+      <h2 id="cta-h" style="margin:0;font-size:clamp(36px,3.4cqw,48px);line-height:1.08;letter-spacing:-.035em;font-weight:500;color:#fff;text-wrap:balance">Bring Your Next Event into Focus</h2>
+      <p style="margin:0;max-width:68ch;font-size:18px;line-height:1.65;color:#AEAEAE;text-wrap:pretty">Share your objectives, audience, and requirements. Let’s define the right format and planning support.</p>
+    </div>
+    <a href="contact.html" style="flex:none;display:inline-flex;align-items:center;gap:10px;height:52px;padding:0 26px;background:#DA272F;color:#fff;font-weight:600;font-size:16px;text-decoration:none;border-radius:10px;transition:background .2s" class="zh39">Discuss Your Event<span aria-hidden="true" style="font-size:16px;line-height:1">›</span></a>
+  </div>
+</section>
+</main>
+
+<footer style="background:#000;color:#fff;padding:28px calc(max(0px, (100cqw - 1320px) / 2) + clamp(20px,4cqw,56px)) 20px;border-top:1px solid rgba(255,255,255,.08)">
+  <div style="margin:0 auto;display:flex;flex-direction:column;gap:16px">
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 36px">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px">
+        <a href="#top" aria-label="ZECO home" style="display:flex;text-decoration:none" data-on="click:goTop"><img src="assets/zeco-logo-white.png" alt="ZECO" style="display:block;height:30px;width:auto"></a>
+        <p style="margin:0;font-size:14px;color:#AEAEAE">Corporate, learning, and networking event management.</p>
+      </div>
+      <nav aria-label="Footer" style="display:flex;flex-wrap:wrap;gap:0 22px">
+        <a href="#about" style="display:flex;align-items:center;min-height:44px;color:#fff;text-decoration:none;font-size:14px;text-underline-offset:6px" class="zh40">About</a>
+        <a href="#services" style="display:flex;align-items:center;min-height:44px;color:#fff;text-decoration:none;font-size:14px;text-underline-offset:6px" class="zh41">What We Do</a>
+        <a href="upcoming-events.html" style="display:flex;align-items:center;min-height:44px;color:#fff;text-decoration:none;font-size:14px;text-underline-offset:6px" class="zh42">Upcoming Events</a>
+        <a href="contact.html" style="display:flex;align-items:center;min-height:44px;color:#fff;text-decoration:none;font-size:14px;text-underline-offset:6px" class="zh43">Contact</a>
+        <a href="https://www.linkedin.com/company/zeco-events/" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;min-height:44px;color:#fff;text-decoration:none;font-size:14px;text-underline-offset:6px" class="zh44">LinkedIn</a>
+        <a href="https://www.instagram.com/zeco.events/" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:center;min-height:44px;color:#fff;text-decoration:none;font-size:14px;text-underline-offset:6px" class="zh45">Instagram</a>
+        <a href="#top" style="display:flex;align-items:center;min-height:44px;color:#fff;text-decoration:none;font-size:14px;text-underline-offset:6px" class="zh46" data-on="click:noop">Privacy Policy</a>
+      </nav>
+    </div>
+    <div style="padding-top:14px;border-top:1px solid rgba(255,255,255,.1);font-size:13px;color:#AEAEAE">© 2026 ZECO. All rights reserved.</div>
+  </div>
+</footer>
+</div>
+<script type="application/json" id="zb-data">[[{"k":"s","p":"background","t":[{"p":"hdrBg"}]},{"k":"s","p":"backdrop-filter","t":[{"p":"hdrBlur"}]},{"k":"s","p":"-webkit-backdrop-filter","t":[{"p":"hdrBlur"}]},{"k":"s","p":"border-bottom","t":["1px solid ",{"p":"hdrLine"}]}],[{"k":"a","n":"aria-expanded","t":[{"p":"servicesOpen"}],"w":1},{"k":"s","p":"text-decoration-color","t":[{"p":"servicesDeco"}]}],[{"k":"s","p":"transform","t":[{"p":"servicesChev"}]}],[{"k":"a","n":"aria-expanded","t":[{"p":"menuOpen"}],"w":1},{"k":"a","n":"aria-label","t":[{"p":"menuLabel"}],"w":1}],[{"k":"a","n":"aria-expanded","t":[{"p":"mServices"}],"w":1}],[{"k":"s","p":"opacity","t":[{"p":"glowOpacity"}]}],[{"k":"s","p":"opacity","t":[{"p":"glowOpacity"}]}],[{"k":"s","p":"opacity","t":[{"p":"glowOpacity"}]}],[{"k":"s","p":"opacity","t":[{"p":"glowOpacity"}]}],[{"k":"s","p":"opacity","t":[{"p":"glowOpacity"}]}],[{"k":"s","p":"opacity","t":[{"p":"glowOpacity"}]}],[{"k":"a","n":"aria-live","t":[{"p":"evLive"}],"w":1}],[{"k":"a","n":"aria-hidden","t":[{"p":"ev0Hidden"}],"w":1},{"k":"s","p":"grid-template-columns","t":[{"p":"evCols"}]},{"k":"s","p":"opacity","t":[{"p":"ev0Op"}]},{"k":"s","p":"transform","t":[{"p":"ev0Tf"}]},{"k":"s","p":"visibility","t":[{"p":"ev0Vis"}]}],[{"k":"s","p":"order","t":[{"p":"evImgOrder"}]},{"k":"s","p":"aspect-ratio","t":[{"p":"evImgAR"}]}],[{"k":"a","n":"aria-hidden","t":[{"p":"ev1Hidden"}],"w":1},{"k":"s","p":"grid-template-columns","t":[{"p":"evCols"}]},{"k":"s","p":"opacity","t":[{"p":"ev1Op"}]},{"k":"s","p":"transform","t":[{"p":"ev1Tf"}]},{"k":"s","p":"visibility","t":[{"p":"ev1Vis"}]}],[{"k":"s","p":"order","t":[{"p":"evImgOrder"}]},{"k":"s","p":"aspect-ratio","t":[{"p":"evImgAR"}]}],[{"k":"a","n":"aria-current","t":[{"p":"ev0Cur"}],"w":1}],[{"k":"s","p":"width","t":[{"p":"ev0DotW"}]},{"k":"s","p":"background","t":[{"p":"ev0Dot"}]}],[{"k":"a","n":"aria-current","t":[{"p":"ev1Cur"}],"w":1}],[{"k":"s","p":"width","t":[{"p":"ev1DotW"}]},{"k":"s","p":"background","t":[{"p":"ev1Dot"}]}],[{"k":"s","p":"opacity","t":[{"p":"glowOpacity"}]}]]</script>
+<script src="js/config.js"></script>
+<script src="js/image-slot.js"></script>
+<script src="js/runtime.js"></script>
+<script src="js/pages/index.js"></script>
+</body>
+</html>

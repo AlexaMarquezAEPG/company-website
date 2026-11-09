@@ -1,0 +1,40 @@
+/* Contact | ZECO: page styles */
+body{margin:0;background:#000;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#fff}
+a:hover{color:#fff}
+:focus-visible{outline:2px solid #fff;outline-offset:3px}
+@keyframes zdrift{0%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(4%,-3%,0) scale(1.08)}100%{transform:translate3d(-3%,4%,0) scale(.96)}}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+
+/* Hover / focus states */
+.zh1:hover{color:#fff !important;text-decoration-color:#DA272F !important}
+.zh2:hover{text-decoration-color:#DA272F !important}
+.zh3:hover{background:rgba(0,0,0,.38) !important;color:#fff !important}
+.zh4:focus{background:rgba(0,0,0,.38) !important;color:#fff !important}
+.zh5:hover{background:rgba(0,0,0,.38) !important;color:#fff !important}
+.zh6:focus{background:rgba(0,0,0,.38) !important;color:#fff !important}
+.zh7:hover{background:rgba(0,0,0,.38) !important;color:#fff !important}
+.zh8:focus{background:rgba(0,0,0,.38) !important;color:#fff !important}
+.zh9:hover{background:rgba(0,0,0,.38) !important;color:#fff !important}
+.zh10:focus{background:rgba(0,0,0,.38) !important;color:#fff !important}
+.zh11:hover{color:#fff !important;text-decoration-color:#DA272F !important}
+.zh12:hover{background:#DA272F !important;box-shadow:0 0 0 3px rgba(218,39,47,.35) !important;color:#fff !important}
+.zh13:hover{color:#fff !important}
+.zh14:hover{color:#fff !important}
+.zh15:hover{color:#fff !important}
+.zh16:hover{color:#fff !important}
+.zh17:hover{color:#fff !important;text-decoration:underline !important;text-decoration-color:#DA272F !important}
+.zh18:hover{border-color:#fff !important;background:rgba(255,255,255,.06) !important;color:#fff !important}
+.zh19:focus{border-color:#fff !important;outline:none !important}
+.zh20:focus{border-color:#fff !important;outline:none !important}
+.zh21:focus{border-color:#fff !important;outline:none !important}
+.zh22:focus{border-color:#fff !important;outline:none !important}
+.zh23:hover{box-shadow:0 0 0 3px rgba(218,39,47,.35) !important}
+.zh24:hover{color:#fff !important;text-decoration:underline !important;text-decoration-color:#DA272F !important}
+.zh25:hover{color:#fff !important;text-decoration:underline !important;text-decoration-color:#DA272F !important}
+.zh26:hover{color:#fff !important;text-decoration:underline !important;text-decoration-color:#DA272F !important}
+.zh27:hover{color:#fff !important;text-decoration:underline !important;text-decoration-color:#DA272F !important}
+.zh28:hover{color:#fff !important;text-decoration:underline !important;text-decoration-color:#DA272F !important}
+.zh29:hover{color:#fff !important;text-decoration:underline !important;text-decoration-color:#DA272F !important}
+.zh30:hover{color:#fff !important;text-decoration:underline !important;text-decoration-color:#DA272F !important}
