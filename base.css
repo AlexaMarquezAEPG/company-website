@@ -1,8 +1,0 @@
-/* ZECO shared styles. Page layout and type are inline in each HTML file; page resets + hover states live in css/<page>.css. */
-z-if { display: contents; }
-z-if[hidden] { display: none !important; }
-
-image-slot { display: block; position: relative; width: 100%; height: 100%; overflow: hidden; }
-image-slot .zs-img { position: absolute; max-width: none; transform: translate(-50%, -50%); user-select: none; -webkit-user-drag: none; }
-image-slot .zs-ph { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 16px; text-align: center; font-size: 14px; line-height: 1.4; border: 1px dashed rgba(255,255,255,.18); }
-image-slot .zs-ph small { font-size: 12px; opacity: .7; }
